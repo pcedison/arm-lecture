@@ -1,5 +1,5 @@
 CC	= arm-linux-gnueabihf-gcc
-CFLAGS	= -O1 -Wall
+CFLAGS	= -O1 -Wall -mcpu=cortex-a15
 LDFLAGS = -fno-stack-protector
 
 objects	= fibseq.o fib.o
